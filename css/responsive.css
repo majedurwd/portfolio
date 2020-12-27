@@ -1,0 +1,341 @@
+ /* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container {
+        max-width: 1200px;
+    }
+    .main-menu ul li a {
+        padding: 45px 15px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 990px;
+    }
+    .logo {
+        padding-left: 50px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .header-right {
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .slider-thumb {
+        display: none;
+    }
+    .slider-content h1 {
+        font-size: 90px;
+        line-height: 1.1;
+    }
+    .slider-content p {
+        margin-bottom: 33px;
+    }
+    .section-title h1 {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+    .single-service {
+        border: 5px solid #f7f8ff;
+        padding: 30px 35px 30px 30px;
+    }
+    .single-service:hover {
+        border: 5px solid #ff3d4f;
+    }
+    .skill-img img {
+        width: 100%;
+        height: 550px;
+        border: 8px solid #fff;
+    }
+    .header-section-title .section-title h1 {
+        margin-bottom: 45px;
+    }
+    .section-title.responsive h1 {
+        font-size: 50px;
+    }
+    .portfolio-menu button {
+        margin-right: 25px;
+    }
+    .experience-items {
+        padding: 30px 0px 10px 20px;
+    }
+    .single-edu-img-2 img {
+        width: 400px;
+        height: 400px;
+    }
+    .our-team-img img {
+        width: 100%;
+    }
+    .our-team-wrap .team-contucts {
+        padding: 27px 0;
+        width: 260px;
+    }
+    .testimonials-wrapp {
+        padding: 18px;
+    }
+    .testimonials-wrapp .testimonials-header i {
+        font-size: 12px;
+    }
+    .testimonials-wrapp .testimonials-header span {
+        font-size: 16px;
+    }
+    .testimonials-wrapp::before {
+        width: 250px;
+    }
+    .testimonials-wrapp::after {
+        width: 206px;
+    }
+    .footer-right .footer-single-content a {
+        font-size: 16px;
+    }
+    .footer-right h2 {
+        font-size: 35px;
+    }
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .header-right {
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .slider-thumb {
+        display: none;
+    }
+    .slider-content h1 {
+        font-size: 90px;
+        line-height: 1.1;
+    }
+    .slider-content p {
+        margin-bottom: 33px;
+    }
+    .section-title h1 {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+    .section-title h1 {
+        font-size: 70px;
+    }
+    .single-service {
+        border: 5px solid #f7f8ff;
+        padding: 30px 35px 30px 30px;
+        margin-bottom: 30px;
+    }
+    .single-service:hover {
+        border: 5px solid #ff3d4f;
+    }
+    .skill-img {
+        margin-bottom: 40px;
+    }
+    .skill-img img {
+        width: 100%;
+    }
+    .work-header-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .portfolio-menu {
+        margin-bottom: 30px;
+    }
+    .banner-btn {
+        text-align: left;
+    }
+    .education-image .single-edu-img-2 {
+        position: static;
+    }
+    .single-edu-img-1 img {
+        width: 100%;
+    }
+    .single-edu-img-2 img {
+        width: 100%;
+    }
+    .education-image .single-edu-img-2 i {
+        top: 70%;
+        left: -40px;
+    }
+    .our-team-img img {
+        width: 100%;
+    }
+    .our-team-wrap {
+        padding-bottom: 120px;
+    }
+    .our-team-wrap .team-contucts {
+        width: 650px;
+        left: 3%;
+        bottom: 40px;
+    }
+    .contact-form form button {
+        margin-bottom: 40px;
+    }
+    .single-fact {
+        margin-bottom: 50px;
+    }
+    .news-feed {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .main-menu {
+        display: none;
+    }
+    .header-right {
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .slider-thumb {
+        display: none;
+    }
+    .slider-content span {
+        font-size: 20px;
+    }
+    .slider-content h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+    .section-title h1 {
+        font-size: 39px;
+        line-height: normal;
+    }
+    .single-service {
+        margin-bottom: 30px;
+    }
+    .skill-img img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+    .skill-content {
+        padding: 0;
+    }
+    .work-header-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .portfolio-menu {
+        margin-bottom: 30px;
+    }
+    .banner-bg {
+        padding: 70px 0px 70px 20px;
+    }
+    .banner-title h1 {
+        font-size: 40px;
+    }
+    .banner-btn a.btn {
+        margin-right: 30px;
+    }
+    .experience-items {
+        padding: 40px 40px 20px 40px;
+        text-align: center;
+    }
+    .experience-items .exp-icon {
+        display: block;
+    }
+    .experience-items .exp-icon i {
+        margin-bottom: 30px;
+    }
+    .experience-items .exp-content p {
+        line-height: 2;
+    }
+    .single-edu-img-1 {
+        margin-bottom: 15px;
+    }
+    .education-image .single-edu-img-2 {
+        position: static;
+    }
+    .single-edu-img-1 img {
+        width: 100%;
+    }
+    .single-edu-img-2 img {
+        width: 100%;
+    }
+    .education-image .single-edu-img-2 i {
+        bottom: 43%;
+        left: 0;
+    }
+    .our-team-img img {
+        width: 100%;
+    }
+    .our-team-wrap {
+        padding-bottom: 120px;
+    }
+    .our-team-wrap .team-contucts {
+        width: 480px;
+        left: 3%;
+        bottom: 40px;
+    }
+    .contact-form form button {
+        margin-bottom: 40px;
+    }
+    .single-fact {
+        margin-bottom: 50px;
+    }
+    .news-feed {
+        margin-bottom: 30px;
+    }
+ 
+}
+
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* .container {
+        width:450px
+    } */
+    /* .header-area {
+        padding: 10px 0;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .header-right {
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .slider-thumb {
+        display: none;
+    }
+    .slider-content span {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .slider-content h1 {
+        font-size: 36px;
+        line-height: normal;
+    } */
+
+     
+}
